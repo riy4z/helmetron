@@ -167,27 +167,22 @@ GSM message delivery time                5-10 seconds
 ## Project Structure
 
 helmetron/
-│
-├── Drowsiness Detection/
-│   ├── drowsiness_detection_live.py   # Live drowsiness detection script
-│   ├── LENET.h5                       # Pre-trained model weights
-│   └── LENET.ipynb                    # Notebook for model experiments
-│
-├── Helmet_Arduino/
-│   ├── HELM.ino                       # Vehicle unit firmware
-│   ├── helmet_ruino.ino               # Helmet unit firmware
-│   └── gsm.h                          # GSM helper functions
-│
-├── Ultrasonic Ranging/
-│   ├── ultrasonic.cpp                 # Ultrasonic sensor implementation
-│   ├── ultrasonic.h                   # Ultrasonic sensor header
-│   └── ultrasonic.ino                 # Ultrasonic test sketch
-│
-├── docs/
-│   └── IEEE smart helmet.pdf         # Project research paper
-│
-├── LICENSE
-└── README.md
+    Drowsiness Detection/
+        drowsiness_detection_live.py
+        LENET.h5
+        LENET.ipynb
+    Helmet_Arduino/
+        HELM.ino
+        helmet_ruino.ino
+        gsm.h
+    Ultrasonic Ranging/
+        ultrasonic.cpp
+        ultrasonic.h
+        ultrasonic.ino
+    docs/
+        IEEE smart helmet.pdf
+    LICENSE
+    README.md
 
 ## Documentation
 
